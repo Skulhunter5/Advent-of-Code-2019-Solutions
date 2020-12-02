@@ -1,5 +1,5 @@
 # Replace the following code block with how you want to load your inputs
-with open("res/masses", 'r') as file:
+with open("masses", 'r') as file:
 	masses = list(map(int, file.readlines()))
 
 fuelRequired = 0

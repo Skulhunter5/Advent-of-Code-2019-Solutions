@@ -1,5 +1,5 @@
 # Replace the following code block with how you want to load your inputs
-with open("res/program1", 'r') as file:
+with open("program", 'r') as file:
 	memory = list(map(int, file.readlines()[0].split(",")))
 
 memory[1] = 12

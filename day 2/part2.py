@@ -1,5 +1,5 @@
 # Replace the following code block with how you want to load your inputs
-with open("res/program1", 'r') as file:
+with open("program", 'r') as file:
 	program = list(map(int, file.readlines()[0].split(",")))
 
 for noun in range(100):
