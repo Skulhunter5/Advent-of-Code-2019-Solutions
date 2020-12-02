@@ -1,5 +1,9 @@
 with open("res/program1", 'r') as file:
 	memory = list(map(int, file.readlines()[0].split(",")))
+'''
+Replace "res/expense report" with the path to your file containing the inputs or
+replace "file.readlines()" with a string containing the inputs
+'''
 
 memory[1] = 12
 memory[2] = 2
