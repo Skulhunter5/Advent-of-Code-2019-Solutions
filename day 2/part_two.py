@@ -1,9 +1,6 @@
+# Replace the following code block with how you want to load your inputs
 with open("res/program1", 'r') as file:
 	program = list(map(int, file.readlines()[0].split(",")))
-'''
-Replace "res/expense report" with the path to your file containing the inputs or
-replace "file.readlines()" with a string containing the inputs
-'''
 
 for noun in range(100):
 	for verb in range(100):
